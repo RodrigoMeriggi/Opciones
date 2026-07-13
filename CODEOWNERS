@@ -1,0 +1,11 @@
+# Critical paths — require extra review (Prompt 22/23)
+
+/src/opciones/modules/risk_manager/ @team-risk
+/src/opciones/modules/paper_broker/ @team-risk
+/src/opciones/modules/broker_adapters/ @team-broker
+/src/opciones/modules/live_transition/ @team-ops
+/src/opciones/modules/security/ @team-security
+/src/opciones/modules/governance/ @team-quant
+/src/opciones/modules/config_service/ @team-ops
+/config/risk.yaml @team-risk
+/.github/workflows/ @team-ops

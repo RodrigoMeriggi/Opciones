@@ -1,0 +1,34 @@
+# Render Blueprint — API paper trading (proceso continuo)
+# https://render.com/docs/blueprint-spec
+#
+# 1. Conectar este repo en https://dashboard.render.com
+# 2. New → Blueprint → seleccionar este render.yaml
+# 3. Tras el deploy, copiar la URL https://….onrender.com
+# 4. En Vercel: NEXT_PUBLIC_API_URL=<esa URL>
+# 5. Acá: CORS_ORIGINS=https://tu-app.vercel.app
+
+services:
+  - type: web
+    name: opciones-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: TRADING_MODE
+        value: paper
+      - key: LIVE_TRADING_ENABLED
+        value: "false"
+      - key: EMERGENCY_STOP
+        value: "false"
+      - key: MAX_POSITION_SIZE
+        value: "0.35"
+      - key: MAX_OPEN_POSITIONS
+        value: "5"
+      - key: PAPER_INITIAL_CASH
+        value: "1000000"
+      - key: LOG_LEVEL
+        value: INFO
+      - key: CORS_ORIGINS
+        sync: false
+      - key: DASHBOARD_JWT_SECRET
+        generateValue: true

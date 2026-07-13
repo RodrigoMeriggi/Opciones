@@ -1,0 +1,19 @@
+# config/reporting.yaml
+environment: local
+trading_mode: PAPER
+formats: [json, html, csv]
+schedule:
+  - when: daily_close
+    factory: daily
+  - when: weekly
+    factory: weekly
+  - when: after_incident
+    factory: incidents
+  - when: after_stress
+    factory: stress
+distributors:
+  email: null
+  slack: null
+  telegram: null
+  s3: null
+output_dir: reports

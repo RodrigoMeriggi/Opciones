@@ -1,0 +1,12 @@
+{
+  "data_version": "fixtures-v1",
+  "inputs": {
+    "K": 100,
+    "S": 100,
+    "T": 1,
+    "q": 0,
+    "r": 0.05,
+    "sigma": 0.2
+  },
+  "price": 10.450584
+}

@@ -1,0 +1,42 @@
+{
+  "type": "daily",
+  "title": "Reporte diario [PAPER]",
+  "payload": {
+    "capital_inicial": 100000,
+    "capital_final": 99500,
+    "efectivo": null,
+    "exposicion": null,
+    "pnl": -500,
+    "comisiones": null,
+    "slippage": null,
+    "operaciones": null,
+    "posiciones_abiertas": null,
+    "ordenes_rechazadas": null,
+    "ejecuciones_parciales": null,
+    "senales_descartadas": null,
+    "circuit_breakers": null,
+    "incidentes": null,
+    "reconciliacion": "ok",
+    "uso_limites": null,
+    "mode_label": "PAPER"
+  },
+  "integrity": {
+    "generated_at": "2026-07-13 15:09:22.173460",
+    "period_start": null,
+    "period_end": null,
+    "environment": "local",
+    "trading_mode": "PAPER",
+    "strategy": null,
+    "version": null,
+    "commit": null,
+    "data_sources": [
+      "ledger"
+    ],
+    "content_hash": "f1c1e0952dea4bf3e70f2c16679b80bfee543ffa8aac44e385d6045c9e711c8a",
+    "generated_by": "ReportGenerator",
+    "reconciliation_status": "ok",
+    "simulated_vs_real": "SIMULATED"
+  },
+  "alerts": [],
+  "disclaimer": "Diferenciar siempre resultados simulados de reales. Los reportes no garantizan rentabilidad futura."
+}

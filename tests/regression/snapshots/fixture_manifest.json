@@ -1,0 +1,11 @@
+{
+  "data_version": "fixtures-v1",
+  "holidays": [
+    "2026-01-01",
+    "2026-05-01",
+    "2026-07-09",
+    "2026-12-25"
+  ],
+  "offline": true,
+  "seed_default": 42
+}

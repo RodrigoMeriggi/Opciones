@@ -1,0 +1,30 @@
+# config/contract_selector.yaml
+min_dte: 7
+max_dte: 45
+max_spread_pct: 8.0
+min_volume: 10
+max_quote_age_seconds: 120
+max_premium_capital: 50000
+prefer_atm: true
+delta_min: 0.40
+delta_max: 0.65
+avoid_deep_otm: true
+max_theta_daily_abs: 50.0
+prefer_mid_expiry: true
+require_greeks: false
+max_per_underlying: 2
+max_per_expiry: 2
+disabled_components: []
+weights:
+  liquidity: 0.12
+  spread: 0.14
+  data_quality: 0.10
+  expiry_fit: 0.10
+  strike_fit: 0.10
+  delta: 0.10
+  theta: 0.08
+  vega: 0.05
+  iv_hv: 0.08
+  premium: 0.05
+  risk: 0.04
+  execution: 0.04

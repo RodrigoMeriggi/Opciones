@@ -1,0 +1,23 @@
+# config/pricing.yaml
+rate_provider:
+  type: manual
+  rate: 0.40
+  version: demo-manual-v1
+
+dividend_provider:
+  type: missing_assume_zero
+  # registra supuesto explícito; no silencioso
+
+iv_solver:
+  min_vol: 0.0001
+  max_vol: 5.0
+  tolerance: 1.0e-6
+  max_iterations: 100
+  methods: [brent, newton, bisection]
+
+models:
+  european: BlackScholesMerton
+  american: BinomialCRR
+  binomial_steps: 100
+
+disclaimer: "Métricas de referencia; no garantizan rentabilidad."

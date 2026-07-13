@@ -1,0 +1,27 @@
+# Backtest de ejemplo — paper / simulación
+# Los resultados NO garantizan rentabilidad futura.
+
+start_date: "2024-01-02"
+end_date: "2024-03-29"
+initial_capital: 1000000
+universe:
+  - GGAL
+strategy_id: basic_option_v1
+strategy_params:
+  signal_confirm_cycles: 1
+  min_seconds_between_trades: 0
+  min_volume: 1
+  max_spread_pct: 20.0
+  min_momentum_pct: 0.1
+  rsi_min: 0
+  rsi_max: 100
+  fast_ma: 5
+  slow_ma: 15
+commission_rate: 0.001
+slippage_bps: 5
+latency_ms: 0
+min_volume: 1
+max_spread_pct: 20
+max_daily_loss: 100000
+frequency: 1d
+force_exit_days_before_expiration: 3

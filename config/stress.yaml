@@ -1,0 +1,18 @@
+# config/stress.yaml
+acceptance:
+  max_loss_pct: 0.20
+  max_drawdown: 0.25
+  zero_duplicate_orders: true
+  zero_unknown_positions: true
+  safe_recovery_required: true
+  allow_close_during_failure: true
+  reconcile_must_pass: true
+  never_exceed_authorized_capital: true
+  never_trade_invalid_data: true
+
+monte_carlo:
+  n_paths: 200
+  seed: 42
+  disclaimer: "No es prueba de rentabilidad futura"
+
+block_live_on_critical_failure: true

@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f3efe6;
+  --ink: #1c2430;
+  --muted: #5c6b7a;
+  --line: #d5d0c4;
+  --accent: #0f6a6a;
+  --accent-2: #c45c26;
+  --ok: #1f7a4c;
+  --danger: #b42318;
+  --warn: #a16207;
+  --panel: rgba(255, 255, 255, 0.78);
+  --background: var(--paper);
+  --foreground: var(--ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  color: var(--ink);
+  background:
+    radial-gradient(1200px 600px at 10% -10%, #dce8e6 0%, transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, #efe2d2 0%, transparent 50%),
+    var(--paper);
+  font-family: var(--font-body), system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+.paper-banner {
+  background: linear-gradient(90deg, #c45c26, #a16207);
+  color: #fff8ef;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.65rem 1rem;
+  font-size: 0.9rem;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  padding: 1rem 1.15rem;
+}
+
+.btn {
+  background: var(--accent);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.55rem 0.95rem;
+  font-weight: 600;
+}
+.btn:disabled {
+  opacity: 0.5;
+}
+.btn-danger {
+  background: var(--danger);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.55rem 0.95rem;
+  font-weight: 600;
+}
+.btn-ghost {
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  padding: 0.45rem 0.8rem;
+  background: transparent;
+}
+.metric {
+  font-family: var(--font-display), serif;
+  font-size: 1.55rem;
+  letter-spacing: -0.02em;
+}
+.table-wrap {
+  overflow-x: auto;
+}
+table.data {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+table.data th,
+table.data td {
+  border-bottom: 1px solid var(--line);
+  padding: 0.55rem 0.4rem;
+  text-align: left;
+  white-space: nowrap;
+}
+input,
+select,
+textarea {
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  padding: 0.45rem 0.6rem;
+  background: white;
+  width: 100%;
+}
+label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 0.25rem;
+}

@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opciones"
+version = "0.1.0"
+description = "Plataforma de trading algorítmico autónomo de opciones BYMA (paper trading)"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "Proprietary" }
+authors = [{ name = "Opciones Team" }]
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "sqlalchemy>=2.0.36",
+    "alembic>=1.14.0",
+    "psycopg[binary]>=3.2.0",
+    "redis>=5.2.0",
+    "pydantic>=2.10.0",
+    "pydantic-settings>=2.6.0",
+    "python-dotenv>=1.0.1",
+    "pyyaml>=6.0.2",
+    "httpx>=0.28.0",
+    "structlog>=24.4.0",
+    "python-multipart>=0.0.12",
+    "pyarrow>=18.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.24.0",
+    "pytest-cov>=6.0.0",
+    "ruff>=0.8.0",
+    "mypy>=1.13.0",
+]
+
+[project.scripts]
+opciones-demo-chain = "scripts.demo_option_chain:main"
+opciones-demo-broker = "scripts.demo_paper_broker:main"
+opciones-demo-strategy = "scripts.demo_strategy_round:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+asyncio_mode = "auto"
+filterwarnings = ["ignore::DeprecationWarning"]
+markers = [
+    "e2e: end-to-end scenarios",
+    "regression: snapshot regression",
+    "performance: performance smoke",
+    "resilience: resilience scenarios",
+]
+[tool.ruff]
+line-length = 100
+target-version = "py312"

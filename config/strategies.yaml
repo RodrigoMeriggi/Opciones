@@ -1,0 +1,27 @@
+# config/strategies.yaml
+# Ninguna estrategia se habilita automáticamente para trading real.
+default_mode: paper
+ensemble_enabled: false
+ensemble_conflict_policy: no_trade
+
+strategies:
+  - name: TrendFollowingOptions
+    version: "1.0.0"
+    enabled: false
+    allowed_environments: [paper, backtest, shadow]
+  - name: VolatilityMeanReversion
+    version: "1.0.0"
+    enabled: false
+    allowed_environments: [paper, backtest, shadow]
+  - name: BreakoutOptions
+    version: "1.0.0"
+    enabled: false
+    allowed_environments: [paper, backtest, shadow]
+  - name: MeanReversionUnderlying
+    version: "1.0.0"
+    enabled: false
+    allowed_environments: [paper, backtest, shadow]
+  - name: NoTrade
+    version: "1.0.0"
+    enabled: false
+    allowed_environments: [paper, backtest, shadow]

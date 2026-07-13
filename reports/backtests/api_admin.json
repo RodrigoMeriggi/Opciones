@@ -1,0 +1,1692 @@
+{
+  "config": {
+    "start_date": "2024-07-02",
+    "end_date": "2024-07-31",
+    "initial_capital": "1000000",
+    "universe": [
+      "GGAL"
+    ],
+    "strategy_id": "basic_option_v1",
+    "strategy_params": {
+      "signal_confirm_cycles": 1,
+      "min_seconds_between_trades": 0,
+      "min_volume": 1,
+      "max_spread_pct": 20,
+      "rsi_min": 0,
+      "rsi_max": 100
+    },
+    "commission_rate": "0.001",
+    "slippage_bps": "5",
+    "latency_ms": 0,
+    "min_volume": 10,
+    "max_spread_pct": "8",
+    "max_daily_loss": "50000",
+    "frequency": "1d",
+    "force_exit_days_before_expiration": 3,
+    "allow_partial": true,
+    "holidays": [],
+    "market_open_hour": 11,
+    "market_close_hour": 17,
+    "timezone": "America/Argentina/Buenos_Aires",
+    "mixed_frequency_policy": "reject"
+  },
+  "metrics": {
+    "total_return": "0",
+    "annualized_return": "0E-27",
+    "net_profit": "0",
+    "gross_profit": "0",
+    "gross_loss": "0",
+    "max_drawdown": "0",
+    "max_drawdown_duration_days": 0,
+    "sharpe_ratio": null,
+    "sortino_ratio": null,
+    "profit_factor": null,
+    "expectancy": "0",
+    "win_rate": 0.0,
+    "avg_win": "0",
+    "avg_loss": "0",
+    "best_trade": "0",
+    "worst_trade": "0",
+    "max_consecutive_losses": 0,
+    "max_consecutive_wins": 0,
+    "avg_exposure": "0",
+    "max_capital_used": "0",
+    "total_commissions": "0",
+    "total_slippage": "0",
+    "rejected_orders": 0,
+    "partial_fills": 0,
+    "total_trades": 0,
+    "disclaimer": "Resultados hist\u00f3ricos simulados. No constituyen garant\u00eda de rentabilidad futura."
+  },
+  "equity_curve": [
+    {
+      "timestamp": "2024-07-02T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-03T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-04T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-05T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-08T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-09T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-10T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-11T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-12T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-15T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-16T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-17T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-18T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-19T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-22T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-23T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-24T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-25T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-26T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-29T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-30T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    },
+    {
+      "timestamp": "2024-07-31T17:00:00",
+      "equity": "1000000",
+      "cash": "1000000",
+      "exposure": "0",
+      "drawdown": "0",
+      "realized_pnl": "0",
+      "unrealized_pnl": "0"
+    }
+  ],
+  "trades": [],
+  "decisions": [
+    {
+      "id": "2acce180-d060-4eeb-88ac-d4b4bbce687c",
+      "timestamp": "2026-07-13T15:28:53.276475",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": null,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": null,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4498.97
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "ecf69f23-1f1a-4bcb-81f8-a986f1a75d62",
+      "timestamp": "2026-07-13T15:28:53.277552",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": null,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": null,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4520.84
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "74f9bc79-3263-44f9-ad95-63aa3fdc28ba",
+      "timestamp": "2026-07-13T15:28:53.277902",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": null,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": null,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4488.75
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "3f59d1c3-50f7-4dc9-b67d-5efec50485c6",
+      "timestamp": "2026-07-13T15:28:53.278107",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": null,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": null,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4498.57
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "bc98f7c9-6bdd-460d-8621-446bdb4a63e0",
+      "timestamp": "2026-07-13T15:28:53.278312",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": null,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": null,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4530.32
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "926fd0f8-1bed-49b3-99e5-4d8b3a921e1b",
+      "timestamp": "2026-07-13T15:28:53.278512",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": null,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": 2.250737391002814,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4600.23
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "048b8aae-c3eb-4b12-9f48-6e96954cfa15",
+      "timestamp": "2026-07-13T15:28:53.278705",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": null,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": 1.294228506206816,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4579.35
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "fbef7163-04d7-4f34-a9c1-466ddc317832",
+      "timestamp": "2026-07-13T15:28:53.278923",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": null,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": 1.6447786131996642,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4562.58
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "b990e826-3394-4d55-aa91-411fadf6e6ea",
+      "timestamp": "2026-07-13T15:28:53.279117",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": null,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": 1.944840249234772,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4586.06
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "66dfac48-7a40-4598-961b-e49e0c71be47",
+      "timestamp": "2026-07-13T15:28:53.279312",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": 4548.993,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": 2.0735842059722165,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4624.26
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "67701efc-ba80-4368-8d01-a3f1a7feaffb",
+      "timestamp": "2026-07-13T15:28:53.279612",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": 4562.852000000001,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": 0.8114811650721995,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4637.56
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "079e44b6-f92a-4f36-a7d0-648188548ebe",
+      "timestamp": "2026-07-13T15:28:53.279795",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": 4573.531,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": 1.0542980990751907,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4627.63
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "876f2acf-dd6f-4e2b-9c23-33303bfdbda9",
+      "timestamp": "2026-07-13T15:28:53.279976",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": 4591.818,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": 2.3898759035458,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4671.62
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "c610305f-f3e8-40ac-a0a7-e2c56e479510",
+      "timestamp": "2026-07-13T15:28:53.280175",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": 4610.074,
+        "sma_slow": null,
+        "rsi": null,
+        "atr": null,
+        "momentum_pct": 2.0730212862457034,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4681.13
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "16df4726-2023-410e-90a0-e0f26f33bc5d",
+      "timestamp": "2026-07-13T15:28:53.280407",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": 4621.85,
+        "sma_slow": null,
+        "rsi": 69.9052195968495,
+        "atr": 43.31000000000001,
+        "momentum_pct": 0.5151094445381468,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4648.08
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "4d001e1b-62f6-4b2c-b32c-092420bed242",
+      "timestamp": "2026-07-13T15:28:53.280633",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": 4632.683,
+        "sma_slow": null,
+        "rsi": 72.71759124794268,
+        "atr": 46.86642857142864,
+        "momentum_pct": 1.5309774967871035,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4708.56
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "c13fa1e6-a81e-4642-94ec-974e27e6062e",
+      "timestamp": "2026-07-13T15:28:53.281479",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": 4648.39,
+        "sma_slow": null,
+        "rsi": 80.28268896877215,
+        "atr": 47.66142857142865,
+        "momentum_pct": 2.350879391826917,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4736.42
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "825bebd0-5c68-43de-b77a-3d0d32606dbb",
+      "timestamp": "2026-07-13T15:28:53.290875",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": 4667.374000000001,
+        "sma_slow": null,
+        "rsi": 80.57623280576233,
+        "atr": 47.86500000000011,
+        "momentum_pct": 1.7295927322855922,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4752.42
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "66583901-716a-4784-adeb-5845683a7129",
+      "timestamp": "2026-07-13T15:28:53.291117",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": 4687.589,
+        "sma_slow": null,
+        "rsi": 80.7634498389598,
+        "atr": 48.659285714285815,
+        "momentum_pct": 2.287481868694096,
+        "relative_volume": null,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4788.21
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "b4746b40-ea29-4470-a500-19797a29b106",
+      "timestamp": "2026-07-13T15:28:53.291354",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": 4704.587,
+        "sma_slow": null,
+        "rsi": 77.30458524502491,
+        "atr": 43.87214285714299,
+        "momentum_pct": 3.144524190633549,
+        "relative_volume": 0.9962182854220213,
+        "historical_volatility": null,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4794.24
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "528ec224-deb8-4dc8-999a-08cd04fbf117",
+      "timestamp": "2026-07-13T15:28:53.291601",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": 4718.353,
+        "sma_slow": null,
+        "rsi": 77.71143997057234,
+        "atr": 43.42214285714291,
+        "momentum_pct": 1.4157194556297434,
+        "relative_volume": 1.2954161010619716,
+        "historical_volatility": 10.061298097844213,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4775.22
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    },
+    {
+      "id": "524cb84c-f42a-4eee-ad28-0b9b49eab16b",
+      "timestamp": "2026-07-13T15:28:53.291848",
+      "strategy_id": "basic_option_v1",
+      "contract_symbol": null,
+      "underlying_symbol": "GGAL",
+      "action": "DISCARD",
+      "indicators": {
+        "sma_fast": 4730.775,
+        "sma_slow": null,
+        "rsi": 76.28676981194971,
+        "atr": 43.16857142857147,
+        "momentum_pct": 0.3257734744807321,
+        "relative_volume": 1.3834617638385145,
+        "historical_volatility": 10.412113633666314,
+        "implied_volatility": null,
+        "iv_hv_ratio": null,
+        "trend": "UNKNOWN",
+        "last_close": 4751.85
+      },
+      "score": null,
+      "score_components": {},
+      "rules_passed": [],
+      "rules_failed": [
+        "trend",
+        "momentum",
+        "rsi"
+      ],
+      "entry_reason": null,
+      "discard_reason": "Sin setup direccional (trend=UNKNOWN)",
+      "exit_reason": null,
+      "estimated_risk": null,
+      "expected_price": null,
+      "executed_price": null,
+      "correlation_id": null
+    }
+  ],
+  "events": [
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-02T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-02"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-03T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-03"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-04T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-04"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-05T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-05"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-08T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-08"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-09T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-09"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-10T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-10"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-11T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-11"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-12T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-12"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-15T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-15"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-16T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-16"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-17T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-17"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-18T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-18"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-19T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-19"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-22T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-22"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-23T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-23"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-24T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-24"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-25T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-25"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-26T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-26"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-29T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-29"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-30T17:00:00"
+    },
+    {
+      "type": "MARKET_CLOSE",
+      "ts": "2024-07-30"
+    },
+    {
+      "type": "MARKET_OPEN",
+      "ts": "2024-07-31T17:00:00"
+    }
+  ],
+  "series": {
+    "equity": [
+      {
+        "t": "2024-07-02T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-03T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-04T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-05T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-08T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-09T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-10T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-11T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-12T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-15T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-16T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-17T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-18T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-19T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-22T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-23T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-24T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-25T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-26T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-29T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-30T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-31T17:00:00",
+        "v": 1000000.0
+      }
+    ],
+    "drawdown": [
+      {
+        "t": "2024-07-02T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-03T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-04T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-05T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-08T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-09T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-10T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-11T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-12T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-15T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-16T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-17T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-18T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-19T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-22T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-23T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-24T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-25T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-26T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-29T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-30T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-31T17:00:00",
+        "v": 0.0
+      }
+    ],
+    "cash": [
+      {
+        "t": "2024-07-02T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-03T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-04T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-05T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-08T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-09T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-10T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-11T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-12T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-15T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-16T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-17T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-18T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-19T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-22T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-23T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-24T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-25T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-26T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-29T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-30T17:00:00",
+        "v": 1000000.0
+      },
+      {
+        "t": "2024-07-31T17:00:00",
+        "v": 1000000.0
+      }
+    ],
+    "exposure": [
+      {
+        "t": "2024-07-02T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-03T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-04T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-05T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-08T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-09T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-10T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-11T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-12T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-15T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-16T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-17T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-18T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-19T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-22T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-23T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-24T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-25T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-26T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-29T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-30T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-31T17:00:00",
+        "v": 0.0
+      }
+    ],
+    "cumulative_pnl": [
+      {
+        "t": "2024-07-02T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-03T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-04T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-05T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-08T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-09T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-10T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-11T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-12T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-15T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-16T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-17T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-18T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-19T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-22T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-23T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-24T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-25T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-26T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-29T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-30T17:00:00",
+        "v": 0.0
+      },
+      {
+        "t": "2024-07-31T17:00:00",
+        "v": 0.0
+      }
+    ],
+    "pnl_histogram": []
+  },
+  "breakdowns": {
+    "by_asset": {},
+    "by_option_type": {},
+    "by_expiration": {},
+    "by_weekday": {},
+    "by_hour": {},
+    "by_entry_reason": {},
+    "by_exit_reason": {}
+  }
+}

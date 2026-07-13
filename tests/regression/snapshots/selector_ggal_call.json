@@ -1,0 +1,19 @@
+{
+  "components": {
+    "data_quality": 100.0,
+    "delta": 40.0,
+    "execution": 96.96,
+    "expiry_fit": 84.62,
+    "iv_hv": 35.0,
+    "liquidity": 100.0,
+    "premium": 70.0,
+    "risk": 80.0,
+    "spread": 95.65,
+    "strike_fit": 100.0,
+    "theta": 40.0,
+    "vega": 40.0
+  },
+  "data_version": "fixtures-v1",
+  "score": 76.43,
+  "winner": "GGALC4500"
+}

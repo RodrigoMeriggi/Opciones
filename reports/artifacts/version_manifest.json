@@ -1,0 +1,15 @@
+{
+  "app_version": "0.4.0",
+  "commit": "local",
+  "date": "2026-07-13T15:18:43.767232Z",
+  "author": "unknown",
+  "changes": "n/a",
+  "migrations": "alembic (see alembic/versions)",
+  "strategies_touched": [],
+  "parameters_touched": [],
+  "known_risks": [
+    "Live trading disabled by default",
+    "No official ALyC docs in repo",
+    "Paper results are not profitability guarantees"
+  ]
+}

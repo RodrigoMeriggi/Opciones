@@ -1,0 +1,40 @@
+# Estrategia básica — paper trading únicamente
+# No promete rentabilidad. Parámetros separados de evaluación.
+strategy_id: basic_option_v1
+
+authorized_underlyings:
+  - GGAL
+  - YPFD
+  - PAMP
+
+min_dte: 5
+max_dte: 45
+calls_enabled: true
+puts_enabled: true
+min_volume: 10
+max_spread_pct: 8.0
+max_capital_per_signal: 50000
+
+rsi_min: 30
+rsi_max: 70
+min_momentum_pct: 0.5
+fast_ma: 10
+slow_ma: 30
+
+take_profit_pct: 30.0
+stop_loss_pct: 20.0
+trailing_stop_pct: 15.0
+max_holding_days: 15
+
+min_seconds_between_trades: 300
+max_daily_trades: 10
+cooldown_after_loss_minutes: 30
+signal_confirm_cycles: 2
+atm_preference_pct: 5.0
+
+# Separación de datos (aunque aún no haya ML)
+data_splits:
+  train_ratio: 0.6
+  validation_ratio: 0.2
+  test_ratio: 0.2
+  note: "No optimizar parámetros sobre el mismo split de evaluación."

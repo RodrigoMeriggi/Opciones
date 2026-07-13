@@ -1,0 +1,16 @@
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+healthcheckPath = "/health"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 5
+
+[service]
+# Variables en Railway Dashboard:
+# TRADING_MODE=paper
+# LIVE_TRADING_ENABLED=false
+# EMERGENCY_STOP=false
+# CORS_ORIGINS=https://tu-frontend.vercel.app
+# MAX_POSITION_SIZE=0.35

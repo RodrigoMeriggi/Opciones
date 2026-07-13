@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "symbol": "GGALJAN24C4500",
+      "underlying": "GGAL",
+      "option_type": "CALL",
+      "strike": 4500,
+      "expiration": "2024-01-19",
+      "timestamp": "2024-01-02T15:00:00",
+      "bid": 80,
+      "ask": 85,
+      "last_price": 82,
+      "volume": 50,
+      "open_interest": 100,
+      "contract_size": 1,
+      "currency": "ARS",
+      "source": "sample"
+    },
+    {
+      "symbol": "GGALJAN24P4500",
+      "underlying": "GGAL",
+      "option_type": "PUT",
+      "strike": 4500,
+      "expiration": "2024-01-19",
+      "timestamp": "2024-01-02T15:00:00",
+      "bid": 70,
+      "ask": 75,
+      "last_price": 72,
+      "volume": 40,
+      "open_interest": 90,
+      "contract_size": 1,
+      "currency": "ARS",
+      "source": "sample"
+    },
+    {
+      "symbol": "BAD",
+      "underlying": "GGAL",
+      "option_type": "CALL",
+      "strike": 4500,
+      "expiration": "2023-01-01",
+      "timestamp": "2024-01-02T15:00:00",
+      "bid": 10,
+      "ask": 5,
+      "last_price": 8,
+      "volume": -1,
+      "source": "sample"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+# Universo de opciones BYMA (panel BYMADATA free/options)
+# https://open.bymadata.com.ar/#/options
+# captured_at: 2026-07-13T16:30:04Z
+source: BYMADATA
+underlyings:
+  - symbol: ALUA
+    option_root: ALU
+    spot_reference: "980"
+  - symbol: BBAR
+    option_root: BBA
+    spot_reference: "10730"
+  - symbol: BHIP
+    option_root: BHI
+  - symbol: BMA
+    option_root: BMA
+    spot_reference: "14350"
+  - symbol: BYMA
+    option_root: BYM
+    spot_reference: "308.5"
+  - symbol: CECO2
+    option_root: CEC
+  - symbol: CEPU
+    option_root: CEP
+    spot_reference: "2367"
+  - symbol: COME
+    option_root: COM
+    spot_reference: "45.01"
+  - symbol: CRES
+    option_root: CRE
+    spot_reference: "1705"
+  - symbol: EDN
+    option_root: EDN
+    spot_reference: "1966"
+  - symbol: GGAL
+    option_root: GFG
+    spot_reference: "8170"
+  - symbol: LOMA
+    option_root: LOM
+    spot_reference: "3550"
+  - symbol: METR
+    option_root: MET
+    spot_reference: "1936"
+  - symbol: MIRG
+    option_root: MIR
+  - symbol: PAMP
+    option_root: PAM
+    spot_reference: "5280"
+  - symbol: SUPV
+    option_root: SUP
+    spot_reference: "3055"
+  - symbol: TECO2
+    option_root: TEC
+  - symbol: TGNO4
+    option_root: TGN
+    spot_reference: "4035"
+  - symbol: TGSU2
+    option_root: TGS
+    spot_reference: "9830"
+  - symbol: TRAN
+    option_root: TRA
+    spot_reference: "3705"
+  - symbol: TXAR
+    option_root: TXA
+    spot_reference: "669"
+  - symbol: VIST
+    option_root: VST
+  - symbol: YPFD
+    option_root: YPF
+    spot_reference: "77150"

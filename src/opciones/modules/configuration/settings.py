@@ -33,7 +33,7 @@ class Settings(BaseSettings):
 
     max_daily_loss: Decimal = Decimal("50000")
     max_position_size: Decimal = Decimal("0.35")
-    max_open_positions: int = 5
+    max_open_positions: int = 20
     min_days_to_expiration: int = 5
     force_exit_days_before_expiration: int = 3
 

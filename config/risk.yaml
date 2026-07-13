@@ -5,7 +5,7 @@ maximum_loss_per_trade: 25000
 maximum_daily_loss: 50000
 maximum_weekly_loss: 100000
 maximum_drawdown: 0.15
-maximum_open_positions: 5
+maximum_open_positions: 20
 maximum_positions_per_underlying: 2
 maximum_total_premium: 300000
 minimum_cash_reserve: 100000

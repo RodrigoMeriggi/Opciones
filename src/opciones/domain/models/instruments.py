@@ -191,7 +191,7 @@ class RiskLimits(BaseModel):
     maximum_daily_loss: Decimal = Decimal("50000")
     maximum_weekly_loss: Decimal = Decimal("100000")
     maximum_drawdown: Decimal = Decimal("0.15")
-    maximum_open_positions: int = 5
+    maximum_open_positions: int = 20
     maximum_positions_per_underlying: int = 2
     maximum_total_premium: Decimal = Decimal("300000")
     minimum_cash_reserve: Decimal = Decimal("100000")

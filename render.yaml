@@ -23,7 +23,7 @@ services:
       - key: MAX_POSITION_SIZE
         value: "0.35"
       - key: MAX_OPEN_POSITIONS
-        value: "5"
+        value: "20"
       - key: PAPER_INITIAL_CASH
         value: "1000000"
       - key: LOG_LEVEL
